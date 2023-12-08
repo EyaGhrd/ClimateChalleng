@@ -1,16 +1,5 @@
 let themeButton = document.getElementById("theme-button");
 
-// TODO: Complete the toggleDarkMode function
-const toggleDarkMode = () => {
-    // Write your code to manipulate the DOM here
-    document.body.classList.toggle("dark-mode");
-    document.querySelector(".info").classList.toggle("dark-mode");
-    document.querySelector(".justin").classList.toggle("justin-dark");
-  document.querySelector(".info").classList.toggle("justin-dark");
-}
-themeButton.addEventListener("click", toggleDarkMode);
-
-
 // Add your query for the sign now button here
 const form = document.getElementById('sign-petition');
 
